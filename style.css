@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h1{
+    font-size: 4rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.choices{
+     font-size: 4rem;
+}
+.choices button{
+   font-size: 6rem;
+   margin: 0px;
+   cursor: pointer;
+  outline: none;
+  background-color: hsl(182.8, 100%, 33.9%);
+  border-radius: 50%;
+  border: none;
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 2px black;
+}
+.choices button:hover{
+     background-color: hsl(189.2, 67.6%, 50.5%);
+}
+.choices button:active{
+    background-color: hsl(189.2, 67.6%, 65%);
+}
+
+#playerDisplay{
+    font-size: 2rem;
+}
+
+#computerDisplay{
+    font-size: 2rem;
+}
+
+#resultDisplay{
+    font-size: 4rem;
+    margin: 30px 0px;
+}
+.scoreDisplay{
+    font-size:1.4rem;
+}
+.greenText,#playerDisplayScore{
+     color: hsl(120, 95%, 46%);
+}
+.redText,#computerDisplayScore{
+    color: hsl(0, 100%, 48%);
+}
+.tieText{
+    color: rgb(0, 177, 130);
+}
+.btn{
+     display: flex;
+     margin: 20px;
+     justify-content: center;
+     align-items: center;
+}
+#resetbtn{
+     font-size: 28px;
+     background: hsla(0, 85%, 46%, 0.986);
+     border: none;
+     border-radius: 4px;
+     color: white;
+     font-family: sans-serif;
+     cursor: pointer;
+}
+
+#resetbtn:hover{
+    background:  hsla(0, 100%, 53.1%, 0.98);
+}
