@@ -24,7 +24,6 @@ h1{
    font-size: 6rem;
    margin: 0px;
    cursor: pointer;
-  outline: none;
   background-color: hsl(182.8, 100%, 33.9%);
   border-radius: 50%;
   border: none;
